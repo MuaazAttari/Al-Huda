@@ -12,7 +12,7 @@ const form = document.getElementById("freeTrialForm");
     };
 
     // Send via FormSubmit's AJAX endpoint
-    fetch("https://formsubmit.co/ajax/mraheelk47@gmail.com", {
+    fetch("https://formsubmit.co/ajax/mudassirqureshi@gmail.com", {
       method: "POST",
       headers: {
         'Content-Type': 'application/json',

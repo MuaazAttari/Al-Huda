@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Al-Huda Online Quran Academy</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">
+      <img src="images/Al-Huda logo.jpg" alt="Al-Huda Logo" />
+    </div>
+    <h1>Al-Huda Academy</h1>
+        <button class="btn-primary" onclick="document.getElementById('contact-form').scrollIntoView({ behavior: 'smooth' })">
+  Start Free Trial
+</button>
+
+  </nav>
+
+  <!-- Hero Section -->
+<header class="hero">
+  <h1>Learn Quran Online</h1>
+  <p>Certified Islamic Tutors. One-on-One. Flexible Timings.</p>
+  <div class="buttons">
+    <button class="btn-primary" onclick="document.getElementById('contact-form').scrollIntoView({ behavior: 'smooth' })">
+  Start Free Trial
+</button>
+
+    <a href="https://wa.me/923702490923" target="_blank">
+      <button class="btn-secondary">WhatsApp Us</button>
+    </a>
+  </div>
+</header>
+
+
+  <!-- About Section -->
+  <section>
+    <h2>Who We Are</h2>
+    <p>
+      Al-Huda is an online Quran academy dedicated to delivering quality Islamic education globally. Our platform connects students to certified tutors for a personalized learning experience.
+    </p>
+  </section>
+
+  <!-- Courses Section -->
+  <section>
+    <h2>Our Courses</h2>
+    <div class="courses">
+      <div class="card"><h3>Qaida</h3><p>Learn Arabic letters and pronunciation from the basics.</p></div>
+      <div class="card"><h3>Quran with Tajweed</h3><p>Recite with proper rules and fluency.</p></div>
+      <div class="card"><h3>Hifz-ul-Quran</h3><p>Memorize Quran with daily supervision.</p></div>
+      <div class="card"><h3>Islamic Studies</h3><p>Duas, Salah, Hadith, and more.</p></div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section>
+    <h2>Why Choose Us?</h2>
+    <div class="features">
+      <div class="card">Certified Teachers</div>
+      <div class="card">Flexible Timings</div>
+      <div class="card">Male & Female Tutors</div>
+      <div class="card">Affordable Fees</div>
+      <div class="card">Comprehensive Syllabus</div>
+      <div class="card">Global Access</div>
+      <div class="card">Quick Response</div>
+      <div class="card">Friendly Support</div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <!-- <section>
+    <h2>Our Teaching Team</h2>
+    <p>Meet our certified instructors.</p>
+    <div class="team">
+      <div class="card">
+        <img src="images/female-quran-teacher.jpeg" alt="Ustadha Iffat" />
+        <p>"Ijazah in Tajweed with 8 years’ experience."</p>
+        <strong>Ustadha Iffat</strong><br>Lead Quran Teacher
+      </div>
+      <div class="card">
+        <img src="images/Muslim-woman-and-her-son-on-laptop.jpg" alt="Mrs. Asim" />
+        <p>"Making Quran joyful for children worldwide."</p>
+        <strong>Mrs. Asim</strong><br>Senior Female Tutor
+      </div>
+      <div class="card">
+        <img src="images/teacher1.webp" alt="Shaykh Usman" />
+        <p>"Hifz & Arabic Specialist, dedicated educator."</p>
+        <strong>Shaykh Usman</strong><br>Hifz Specialist
+      </div>
+    </div>
+  </section> -->
+
+  <!-- Contact Section -->
+ <section id="contact-form">
+  <h2>Contact & Free Trial</h2>
+  
+
+  <form id="freeTrialForm">
+<!-- Hidden settings -->
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_template" value="table">
+  <input type="hidden" name="_autoresponse" value="Thank you! We’ll get back to you soon.">
+  <input type="hidden" name="_redirect" value="none"> <!-- Prevent redirect -->
+
+  <!-- Inputs -->
+  <input type="text" name="name" placeholder="Name" required>
+  <input type="email" name="email" placeholder="Email" required>
+  <textarea name="message" rows="4" placeholder="Your message..." required></textarea>
+
+  <button type="submit" class="btn-primary">Submit</button>
+</form>
+
+<p id="successMessage" class="success-popup">
+  ✅ Your request has been submitted successfully!
+  <span class="close-btn" onclick="hideSuccess()">✖</span>
+</p>
+
+
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-links">
+      <div><strong>Quick Links</strong><br>Home<br>Courses<br>Contact</div>
+      <div><strong>Contact</strong><br>WhatsApp<br>Email<br>Hyderabad, Pakistan</div>
+      <div><strong>Social</strong><br>WhatsApp<br>YouTube<br>Facebook</div>
+      <div><strong>Legal</strong><br>Terms<br>Privacy</div>
+    </div>
+    <p>© 2025 Al-Huda Academy</p>
+  </footer>
+<script src="script.js"></script>
+
+  </body>
+</html>
